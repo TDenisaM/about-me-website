@@ -77,3 +77,91 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    text-align: center;
+  }
+  .primary-link {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+  }
+  .email-link {
+    font-size: 20px;
+  }
+}
+@media (max-width: 950px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 450px) {
+  body {
+    margin-top: 70px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+  p {
+    text-align: center;
+    font-size: 13px;
+  }
+  .photos {
+    display: none;
+  }
+  .navigation-links {
+    margin-top: 20px;
+  }
+
+  .primary-link {
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color: white;
+    font-size: 13px;
+  }
+  .secondary-link {
+    padding: 10px;
+    font-size: 13px;
+  }
+  .email-link {
+    font-size: 20px;
+  }
+  .navbar-custome {
+    font-size: 15px;
+  }
+  .icon-custome {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+    padding-right: 10px;
+  }
+  .toggler-custome {
+    width: 40px;
+    height: 30px;
+  }
+}
