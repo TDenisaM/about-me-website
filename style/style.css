@@ -119,10 +119,10 @@ p {
     margin-top: 70px;
   }
   h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
   h2 {
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
   }
 
@@ -131,7 +131,7 @@ p {
   }
   p {
     text-align: center;
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .photos {
@@ -146,14 +146,15 @@ p {
     display: block;
     padding: 10px;
     color: white;
-    font-size: 13px;
+    font-size: 15px;
   }
   .secondary-link {
     padding: 10px;
-    font-size: 13px;
+    font-size: 15px;
   }
   .email-link {
     font-size: 15px;
+    padding-top: 10px;
   }
   .navbar-custome {
     font-size: 15px;
